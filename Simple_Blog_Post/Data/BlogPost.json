@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to React Native",
+      "content": "React Native is a popular framework for building mobile applications using React and JavaScript. It enables developers to create high-performance apps for both iOS and Android using a single codebase.",
+      "author": "John Doe"
+    },
+    {
+      "id": 2,
+      "title": "Building Your First App",
+      "content": "Learn how to build your first React Native app step by step. This guide will walk you through setting up your development environment, creating a new project, and running it on a simulator or physical device.",
+      "author": "Jane Smith"
+    },
+    {
+      "id": 3,
+      "title": "Understanding Components",
+      "content": "Components are the building blocks of a React Native app. This article covers the basics of creating functional and class components, as well as how to use props and state to manage data within them.",
+      "author": "Bob Johnson"
+    },
+    {
+      "id": 4,
+      "title": "State Management in React Native",
+      "content": "State management is crucial for building dynamic and interactive apps. Learn about different state management techniques in React Native, including the use of React's built-in hooks like useState and useEffect, and external libraries such as Redux.",
+      "author": "Alice Brown"
+    },
+    {
+      "id": 5,
+      "title": "Navigation in React Native",
+      "content": "Navigating between different screens is a common requirement in mobile apps. This post introduces React Navigation, a powerful library for managing routing and navigation in React Native applications.",
+      "author": "David White"
+    },
+    {
+      "id": 6,
+      "title": "Styling Your React Native App",
+      "content": "Styling in React Native is done using a mix of JavaScript and CSS-like syntax. This article explains how to apply styles using the StyleSheet API, inline styles, and how to use third-party libraries for more advanced styling needs.",
+      "author": "Mary Johnson"
+    },
+    {
+      "id": 7,
+      "title": "Fetching Data from APIs",
+      "content": "Fetching data from external APIs is a common task in mobile development. Learn how to use the Fetch API and Axios to make network requests in your React Native app, handle responses, and update your UI based on the data received.",
+      "author": "Chris Lee"
+    },
+    {
+      "id": 8,
+      "title": "Handling User Input",
+      "content": "Handling user input is essential for interactive applications. This guide covers different ways to capture and manage user input in React Native, including using TextInput, Button, and handling form submissions.",
+      "author": "Sandra Martinez"
+    },
+    {
+      "id": 9,
+      "title": "Using React Native Debugger",
+      "content": "Debugging is a critical part of development. This article introduces tools and techniques for debugging React Native apps, including using the built-in debugger, React Native Debugger, and integrating with tools like Flipper.",
+      "author": "James Wilson"
+    },
+    {
+      "id": 10,
+      "title": "Performance Optimization in React Native",
+      "content": "Performance is key to providing a good user experience. Learn about best practices for optimizing the performance of React Native apps, such as optimizing rendering, avoiding unnecessary re-renders, and using libraries like React Native Reanimated.",
+      "author": "Emily Davis"
+    }
+]
