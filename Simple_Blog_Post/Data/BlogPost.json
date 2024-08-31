@@ -1,62 +1,202 @@
 [
-    {
+  {
       "id": 1,
       "title": "Introduction to React Native",
       "content": "React Native is a popular framework for building mobile applications using React and JavaScript. It enables developers to create high-performance apps for both iOS and Android using a single codebase.",
-      "author": "John Doe"
-    },
-    {
+      "author": "John Doe",
+      "category": "React Native",
+      "published_date": "2023-01-10",
+      "tags": ["React Native", "JavaScript", "Mobile Development"],
+      "comments_count": 15
+  },
+  {
       "id": 2,
       "title": "Building Your First App",
       "content": "Learn how to build your first React Native app step by step. This guide will walk you through setting up your development environment, creating a new project, and running it on a simulator or physical device.",
-      "author": "Jane Smith"
-    },
-    {
+      "author": "Jane Smith",
+      "category": "Getting Started",
+      "published_date": "2023-02-15",
+      "tags": ["React Native", "Tutorial", "Beginner"],
+      "comments_count": 10
+  },
+  {
       "id": 3,
       "title": "Understanding Components",
       "content": "Components are the building blocks of a React Native app. This article covers the basics of creating functional and class components, as well as how to use props and state to manage data within them.",
-      "author": "Bob Johnson"
-    },
-    {
+      "author": "Bob Johnson",
+      "category": "React Native",
+      "published_date": "2023-03-20",
+      "tags": ["Components", "Props", "State"],
+      "comments_count": 5
+  },
+  {
       "id": 4,
       "title": "State Management in React Native",
       "content": "State management is crucial for building dynamic and interactive apps. Learn about different state management techniques in React Native, including the use of React's built-in hooks like useState and useEffect, and external libraries such as Redux.",
-      "author": "Alice Brown"
-    },
-    {
+      "author": "Alice Brown",
+      "category": "State Management",
+      "published_date": "2023-04-05",
+      "tags": ["State", "Redux", "Hooks"],
+      "comments_count": 20
+  },
+  {
       "id": 5,
       "title": "Navigation in React Native",
       "content": "Navigating between different screens is a common requirement in mobile apps. This post introduces React Navigation, a powerful library for managing routing and navigation in React Native applications.",
-      "author": "David White"
-    },
-    {
+      "author": "David White",
+      "category": "Navigation",
+      "published_date": "2023-05-18",
+      "tags": ["Navigation", "React Navigation", "Routing"],
+      "comments_count": 12
+  },
+  {
       "id": 6,
       "title": "Styling Your React Native App",
       "content": "Styling in React Native is done using a mix of JavaScript and CSS-like syntax. This article explains how to apply styles using the StyleSheet API, inline styles, and how to use third-party libraries for more advanced styling needs.",
-      "author": "Mary Johnson"
-    },
-    {
+      "author": "Mary Johnson",
+      "category": "Styling",
+      "published_date": "2023-06-22",
+      "tags": ["Styling", "CSS", "JavaScript"],
+      "comments_count": 18
+  },
+  {
       "id": 7,
       "title": "Fetching Data from APIs",
       "content": "Fetching data from external APIs is a common task in mobile development. Learn how to use the Fetch API and Axios to make network requests in your React Native app, handle responses, and update your UI based on the data received.",
-      "author": "Chris Lee"
-    },
-    {
+      "author": "Chris Lee",
+      "category": "Data Fetching",
+      "published_date": "2023-07-01",
+      "tags": ["APIs", "Fetch", "Axios"],
+      "comments_count": 22
+  },
+  {
       "id": 8,
       "title": "Handling User Input",
       "content": "Handling user input is essential for interactive applications. This guide covers different ways to capture and manage user input in React Native, including using TextInput, Button, and handling form submissions.",
-      "author": "Sandra Martinez"
-    },
-    {
+      "author": "Sandra Martinez",
+      "category": "User Interaction",
+      "published_date": "2023-07-15",
+      "tags": ["User Input", "TextInput", "Forms"],
+      "comments_count": 8
+  },
+  {
       "id": 9,
       "title": "Using React Native Debugger",
       "content": "Debugging is a critical part of development. This article introduces tools and techniques for debugging React Native apps, including using the built-in debugger, React Native Debugger, and integrating with tools like Flipper.",
-      "author": "James Wilson"
-    },
-    {
+      "author": "James Wilson",
+      "category": "Debugging",
+      "published_date": "2023-08-10",
+      "tags": ["Debugging", "React Native Debugger", "Flipper"],
+      "comments_count": 7
+  },
+  {
       "id": 10,
       "title": "Performance Optimization in React Native",
       "content": "Performance is key to providing a good user experience. Learn about best practices for optimizing the performance of React Native apps, such as optimizing rendering, avoiding unnecessary re-renders, and using libraries like React Native Reanimated.",
-      "author": "Emily Davis"
-    }
+      "author": "Emily Davis",
+      "category": "Performance",
+      "published_date": "2023-08-25",
+      "tags": ["Performance", "Optimization", "Reanimated"],
+      "comments_count": 25
+  },
+  {
+      "id": 11,
+      "title": "Integrating Native Modules in React Native",
+      "content": "Sometimes, you need to integrate native functionality that isn't available in React Native by default. Learn how to bridge native modules into your React Native app for both iOS and Android.",
+      "author": "Robert Miller",
+      "category": "Advanced Topics",
+      "published_date": "2023-09-05",
+      "tags": ["Native Modules", "iOS", "Android"],
+      "comments_count": 9
+  },
+  {
+      "id": 12,
+      "title": "Handling Offline Mode",
+      "content": "Ensuring your app works offline can provide a better user experience. This article discusses strategies to handle offline functionality, data synchronization, and using libraries like Redux Offline.",
+      "author": "Laura Adams",
+      "category": "Offline Support",
+      "published_date": "2023-09-15",
+      "tags": ["Offline", "Data Sync", "Redux Offline"],
+      "comments_count": 14
+  },
+  {
+      "id": 13,
+      "title": "Push Notifications in React Native",
+      "content": "Push notifications are essential for engaging users. Learn how to implement push notifications in your React Native app using Firebase Cloud Messaging (FCM) and other services.",
+      "author": "Paul Walker",
+      "category": "Notifications",
+      "published_date": "2023-09-20",
+      "tags": ["Push Notifications", "FCM", "Engagement"],
+      "comments_count": 16
+  },
+  {
+      "id": 14,
+      "title": "Using TypeScript with React Native",
+      "content": "TypeScript provides static typing to JavaScript, making your code more robust. This guide shows how to set up TypeScript in a React Native project and best practices for using types.",
+      "author": "Emma Green",
+      "category": "TypeScript",
+      "published_date": "2023-09-25",
+      "tags": ["TypeScript", "JavaScript", "Static Typing"],
+      "comments_count": 19
+  },
+  {
+      "id": 15,
+      "title": "Animations in React Native",
+      "content": "Animations can make your app feel more dynamic and responsive. Learn how to use the Animated API and libraries like React Native Reanimated to create smooth animations.",
+      "author": "Daniel King",
+      "category": "Animations",
+      "published_date": "2023-10-01",
+      "tags": ["Animations", "Animated API", "Reanimated"],
+      "comments_count": 11
+  },
+  {
+      "id": 16,
+      "title": "Handling User Authentication",
+      "content": "User authentication is a critical aspect of most apps. This article discusses different methods for handling authentication in React Native, including JWT, OAuth, and using services like Firebase Authentication.",
+      "author": "Sophia Clark",
+      "category": "Authentication",
+      "published_date": "2023-10-10",
+      "tags": ["Authentication", "JWT", "OAuth", "Firebase"],
+      "comments_count": 21
+  },
+  {
+      "id": 17,
+      "title": "Integrating Third-Party Libraries",
+      "content": "Extend your app's functionality by integrating third-party libraries. This guide covers the best practices for adding, configuring, and using libraries in your React Native project.",
+      "author": "Oliver Martinez",
+      "category": "Integration",
+      "published_date": "2023-10-15",
+      "tags": ["Third-Party Libraries", "Integration", "Best Practices"],
+      "comments_count": 13
+  },
+  {
+      "id": 18,
+      "title": "React Native for Web",
+      "content": "React Native isn't just for mobile apps. Discover how to use React Native for building web applications with a consistent codebase and the same development patterns.",
+      "author": "Lucas Wilson",
+      "category": "Cross-Platform",
+      "published_date": "2023-10-20",
+      "tags": ["React Native for Web", "Cross-Platform", "Web Development"],
+      "comments_count": 17
+  },
+  {
+      "id": 19,
+      "title": "Setting Up Continuous Integration for React Native",
+      "content": "Automate your build and testing process with Continuous Integration (CI). Learn how to set up CI for your React Native projects using tools like GitHub Actions and CircleCI.",
+      "author": "Amelia Thompson",
+      "category": "DevOps",
+      "published_date": "2023-10-25",
+      "tags": ["Continuous Integration", "CI", "DevOps"],
+      "comments_count": 24
+  },
+  {
+      "id": 20,
+      "title": "Best Practices for React Native Development",
+      "content": "Learn the best practices for developing high-quality React Native apps, including code organization, performance optimization, testing, and maintaining a clean codebase.",
+      "author": "Liam Scott",
+      "category": "Best Practices",
+      "published_date": "2023-11-01",
+      "tags": ["Best Practices", "Clean Code", "Optimization"],
+      "comments_count": 30
+  }
 ]
